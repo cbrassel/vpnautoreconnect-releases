@@ -4,11 +4,7 @@ macOS menu bar app that automatically reconnects your VPNs when your Mac wakes u
 
 - Reconnects the VPNs you select after every wake, one after the other, with retries
 - Works with the VPNs configured in System Settings: IKEv2, L2TP/IPSec, Cisco IPSec
-- Menu bar icon shows the state at a glance:
-  - 🟢 all selected VPNs connected
-  - 🟠 some selected VPNs disconnected
-  - 🔴 all selected VPNs disconnected
-  - ⚪ no VPN selected
+- Menu bar icon shows the state at a glance: a shield with a lock (all selected VPNs connected), an exclamation mark (some disconnected) or a cross (all disconnected)
 - Optional continuous monitoring: reconnects a VPN that drops while the Mac is awake
 - Connect all / disconnect all from the menu
 - Launch at login
