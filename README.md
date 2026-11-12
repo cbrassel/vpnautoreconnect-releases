@@ -9,7 +9,7 @@ macOS menu bar app that automatically reconnects your VPNs when your Mac wakes u
 - Colored menu bar icon shows the state at a glance: green when all selected VPNs are connected, orange when some are disconnected, red when all are
 - Optional continuous monitoring: reconnects a VPN that drops while the Mac is awake
 - Connect all / disconnect all from the menu
-- Launch at login
+- Launch at login: when you turn it on, macOS shows a "Background Items Added" notification and lists the app in **System Settings › General › Login Items & Extensions**. This is expected and needs no administrator password
 - No Dock icon, nothing to configure besides ticking your VPNs
 
 English and French, following the system language.
